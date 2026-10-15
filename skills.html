@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Stevensly Pourcely, étudiant en BTS SIO option SISR, en recherche d'alternance en Île-de-France.">
+    <title>Compétences – Stevensly Pourcely</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip" href="#main">Aller au contenu</a>
+
+    <header>
+        <nav id="navbar" aria-label="Navigation principale">
+            <a class="brand" href="index.html">Stevensly Pourcely</a>
+            <button id="burger" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">☰</button>
+            <div id="menu">
+                <a href="moi.html">Présentation</a>
+                <a href="ecole.html">École</a>
+                <a href="entreprise.html">Entreprise</a>
+                <a href="projets.html">Projets</a>
+                <a href="skills.html" aria-current="page">Compétences</a>
+                <a href="VT.html">Veille techno</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>Compétences</h1>
+        <div class="grid">
+            <section class="panel" id="dev">
+                <h3>Développement web</h3>
+                <p>HTML, CSS, JavaScript, Git et GitHub.</p>
+                <a class="btn" href="projets.html#perso">Voir les projets associés</a>
+            </section>
+
+            <section class="panel" id="sys">
+                <h3>Systèmes et réseaux</h3>
+                <p>Windows, Linux, réseaux : le cœur de mon BTS SISR.</p>
+                <a class="btn" href="projets.html#ecole">Voir les projets associés</a>
+            </section>
+
+            <section class="panel" id="cyber">
+                <h3>Cybersécurité</h3>
+                <p>Bonnes pratiques et veille régulière.</p>
+                <a class="btn" href="VT.html">Voir ma veille</a>
+            </section>
+            
+        </div>
+        <h2>Certifications</h2>
+        <div class="grid">
+            
+        <!-- Copie bloc pour chaque certifs -->
+        <article class="panel">
+            <div class="thumb">
+                <img src="image/certif1.png" alt="Certification : nom à compléter" loading="lazy" onerror="this.remove()">
+            </div>
+            <h3>Introduction to HTML</h3>
+            <p>sololearn 11 aout 2025.</p>
+            <a class="btn" href="https://www.sololearn.com/certificates/CC-WUSGLJCG" target="_blank" rel="noopener">Voir la certification</a>
+        </article>
+
+        <article class="panel">
+            <div class="thumb">
+                <img src="image/certif2.png" alt="Certification : nom à compléter" loading="lazy" onerror="this.remove()">
+            </div>
+            <h3>Introduction to JavaScript</h3>
+            <p>sololearn 19 mars 2026.</p>
+            <a class="btn" href="https://www.sololearn.com/certificates/CC-GL0XE5WD" target="_blank" rel="noopener">Voir la certification</a>
+        </article>
+
+        </div>
+    </main>
+
+    <a class="fab" href="mailto:steve.pourcely@gmail.com">Contact</a>
+
+    <footer>
+        <a href="index.html">Accueil</a>
+        <a href="cv/CV_Pourcely_tech-systemes-reseaux.pdf" download>CV (PDF)</a>
+        <a href="https://github.com/sleyels" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+</body>
+</html>
